@@ -39,6 +39,7 @@ class TodoApp extends Component{
     return(
       <div className='todo-container'>
         <h1 className='todo-heading'>Todo App</h1>
+        <p style={{textAlign:'center'}}>Todo-List</p>
         <form onSubmit={this.getDataFromInput} className='todo-form'>
            <input type="text" className='todo-input' placeholder='Your Todo' value={task} onChange={this.onChangeInputValues}/>
            <br/>
